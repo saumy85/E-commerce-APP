@@ -10,12 +10,12 @@ import cors from "cors";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 dotenv.config();
+connectDB();
 const app = express();
 //configure env
-dotenv.config();
 
 //databse config
-connectDB();
+
 
 const __filename = fileURLToPath(import.meta.url);
 
