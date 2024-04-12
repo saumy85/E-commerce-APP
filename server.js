@@ -10,7 +10,7 @@ import cors from "cors";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 dotenv.config();
-
+const app = express();
 //configure env
 dotenv.config();
 
